@@ -1,0 +1,65 @@
+<html>
+<head>
+	<script src="js/Index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/Index.css">
+	<title>Di Java</title>
+</head>
+<body onload="isMobile()">
+	<!--formurile pentru user+parola-->
+	<div class="credentials">
+		<span style="display:inline-block">
+			<!--<label for=bar  style="display:block">Label 2</label>-->
+			<input type="text" name="username" placeholder="Nume utilizator"/>
+		</span>
+		<span style="display:inline-block">
+			<!--<label for=foo style="display:block">Label 1</label>-->
+			<input type="text" name="password" placeholder="Parola"/>
+		</span><br>
+		<a href="www.google.com">Inregistrare</a>
+	</div>
+	
+	<!--logo centrat-->
+	<div class="logo" id='onme'>
+		<img src="images/logo.png" alt="Our logo" style="width:100%;height:100%;">
+	</div>
+	
+	<!--dunga neagra. Aici va veni slideshow-ul-->
+	<div style="background-color:black;width:99vw;height:6vh;margin-top:5vh;margin-left:0px auto;">
+	
+	</div>
+	
+	<!--formul de jos-->
+	<div class="centeredFields">
+		<span style="display:inline-block">
+			<!--<label for=bar  style="display:block">Label 2</label>-->
+			<input type="text" name="dela" placeholder="De la"/>
+		</span>
+		<span style="display:inline-block">
+			<!--<label for=foo style="display:block">Label 1</label>-->
+			<input type="text" name="spre" placeholder="Spre"/>
+		</span>
+		<span style="display:inline-block">
+			<!--<label for=foo style="display:block">Label 1</label>-->
+			<input type="text" name="ora plecare" placeholder="Ora plecare"/>
+		</span>
+		<span style="display:inline-block">
+			<!--<label for=foo style="display:block">Label 1</label>-->
+			<input type="text" name="escala" placeholder="Escala"/>
+		</span><br><br>
+		<input type="submit" value="Submit">
+	</div>
+	
+	
+	
+	<!--cursor urmarit de text: sugerat un motto care sa apara doar pe home page-->
+	<div>
+		<div id="divtoshow" style="padding-right:100px">
+			<div id="checkPlane">
+				<img src="images/airplane.png" alt="Airplane" style="width:15vh;height:5vh;">
+			</div>
+		</div>
+		<br><br>
+		<div id='onme' onMouseover='document.getElementById(divName).style.display="block"' onMouseout='document.getElementById(divName).style.display="none"'>
+	</div>
+</body>
+</html>
